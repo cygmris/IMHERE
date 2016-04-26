@@ -1,0 +1,55 @@
+<nav class="top-nav">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a class="brand-logo">
+        I am here</a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<ul id="nav-mobile" class="side-nav fixed">
+  <li class="logo">
+    <a id="logo-container" href="http://materializecss.com/" class="brand-logo">
+      <object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">Your browser does not support SVG</object>
+    </a>
+  </li>
+  <li class="search">
+    <div class="search-wrapper card">
+      <input id="search">
+      <i class="material-icons">search</i>
+      <div class="search-results"></div>
+    </div>
+  </li>
+  <li class="bold">
+    <a href="#" class="waves-effect waves-teal"><%= Home %></a>
+  </li>
+  <li class="bold">
+    <a href="#about" class="waves-effect waves-teal"><%= About %></a>
+  </li>
+  <li class="bold active">
+    <a href="getting-started.html" class="waves-effect waves-teal"><%= Attendance %></a>
+  </li>
+  <li class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li class="bold">
+        <a class="collapsible-header  waves-effect waves-teal">Info</a>
+        <div class="collapsible-body">
+          <ul>
+            <li>
+              <a href="#teachers"><%= Info.TeacherID %></a>
+            </li>
+            <li>
+              <a href="grid.html"><%= Info.StudentID %></a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+  </li>
+
+</ul>
